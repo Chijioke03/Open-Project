@@ -13,6 +13,8 @@
     border-bottom: 2px solid var(--border-color);
 }
 
+
+
 .header-actions {
     display: flex;
     align-items: center;
@@ -57,8 +59,13 @@
 }
 
 .dashboard-header h1 {
+ background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+   -webkit-text-fill-color: transparent;
     font-size: 2.5rem;
-    color: var(--accent-color);
+   
 }
 
 .logout-btn {

@@ -252,7 +252,7 @@
 }
 
 .btn-contact {
-    background: var(--primary-color);
+    background: var(--success-color);
     color: white;
     border: none;
     padding: 8px 16px;
@@ -263,7 +263,7 @@
 }
 
 .btn-contact:hover {
-    background: var(--primary-light);
+    background: var(--accent-color);
 }
 
 /* No Offers */
@@ -312,7 +312,7 @@
 
 /* Buttons */
 .btn-primary {
-    background: var(--primary-color);
+    background: var(--success-color);
     color: white;
     border: none;
     padding: 12px 24px;
@@ -325,7 +325,7 @@
 }
 
 .btn-primary:hover {
-    background: var(--primary-light);
+    background: var(--accent-color);
 }
 
 .btn-secondary {
